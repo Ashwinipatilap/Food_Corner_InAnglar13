@@ -1,0 +1,43 @@
+.searchbox{
+    margin: 5rem;
+ 
+  
+   display: flex;
+   justify-content: center;
+   
+  
+
+}
+
+.searchbox input{
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10rem 0 0 10rem;
+background-color: whitesmoke;
+color: black;
+font-size: 1rem;
+font-weight: 500;
+padding: 1.2rem;
+outline: none;
+}
+
+.searchbox button{
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0 10rem 10rem 0;
+    background-color: red;
+    color: white;
+    padding: 0rem;
+    margin: 0rem;
+    font-size: 1rem;
+font-weight: 500;
+padding: 1.2rem;
+
+}
+
+.searchbox button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
