@@ -8,12 +8,14 @@ import { HomeComponent } from './home/home.component';
 import { RatingModule } from 'ng-starrating';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
+import { TagComponent } from './tag/tag.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
     SearchComponent,
+    TagComponent,
 
 
   ],
